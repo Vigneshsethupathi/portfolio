@@ -1,0 +1,26 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vignesh portfolio</title>
+<link rel="stylesheet" href="{% static 'css/folio.css' %}">
+</head>
+<body style="background-image: url('{% static 'img/5.jpg' %}');">
+  <div class="navbg">
+    <nav><div class="icon">portfolio....!</div>
+      <div class="right">  
+        <a href="{% url 'home' %}" class="navangular">Home</a>
+      <a href="{% url 'project' %}" class="navangular">project's</a>
+      <a href="{% url 'contact' %}" class="navangular" style="color: red;">contact</a>
+      <a href="{% url 'about' %}" class="navangular">about</a></div>
+    </nav>
+  </div>
+  </div>
+  <div class="contacts"><label class="cont">GITHUB ACCOUNT</label><img src="{% static 'img/OIP.jfif' %}" alt=""  id="githubimg"><p class="github">sethupathi331</p></div> <b class="link"><a href="https://github.com/sethupathi331" title="GO NOW">click here</a></b></div>
+  <div class="contacts"><label class="cont">G-MAIL</label><img src="{% static 'img/download.jfif' %}" alt=""  id="emailimg"><p class="email">sethuvicky330@gmail.com</p></div></div>
+  <div class="contacts"><label class="cont">MOBILE NO</label>
+<img src="{% static 'img/images.png' %}" alt=""  id="conimg"><p class="mobile">+91 7603915159</p></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vignesh portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/folio.css' %}">
+</head>
+<body style="background-image: url('{% static 'img/5.jpg' %}');">
+  <div class="navbg">
+    <nav><div class="icon">portfolio....!</div>
+      <div class="right">  
+        <a href="{% url 'home' %}" class="navangular" style="color: red;">Home</a>
+      <a href="{% url 'project' %}" class="navangular">project's</a>
+      <a href="{% url 'contact' %}" class="navangular">contact</a>
+      <a href="{% url 'about' %}" class="navangular">about</a></div>
+    </nav>
+  </div>
+  <div class="mainflex">
+    <div class="child1"><div class="image"><img src="{% static 'img/my2.png' %}" alt="" id="pic"></div></div>
+    <div class="child2"><h1 class="tag1">Hi! I Am <br> Vignesh sethupathi</h1>
+    <label for="" id="work">I'm a Python Fullstock Development student</label>
+ <b class="bold"> I have full details in navigation bar to check me..!</b></div>
+ <b class="download"><a href="{% static 'vignesh bio.pdf' %}" title="click here">Download CV</a></b>
+   
+  </div>
+</body>
+</html>

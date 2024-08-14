@@ -1,0 +1,133 @@
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vignesh portfolio</title>
+   <link rel="stylesheet" href="{% static 'css/folio.css' %}">
+    <style>h1{ color: rgb(135, 9, 253); background-color: rgb(236, 146, 35);
+        text-align: center}
+        table,tr,th,td{
+            border:3px solid black;
+            border-collapse: collapse;
+            background-color: antiquewhite;
+            color: black;
+            padding: 10px;
+        }
+        th{color: black;
+            background-color: aquamarine;
+        }
+        body{background-color: rgba(250, 235, 215, 0.603)}
+        #name{
+            margin-left: 70%;
+            margin-right:3px;
+
+        }img{
+            width: 80px;
+            height:100px;
+            margin-left: 70%;
+            margin-right:3px;
+        }
+*{color: #fff;
+font-size: 20px;}
+        strong{background-image: repeating-conic-gradient(white,green,white,rgb(255, 102, 0));
+        color: black ;
+    font-size: 30px;
+margin-top: 5px;
+margin-bottom: 5px;}
+        </style>
+</head>
+<body style="background-image: url('{% static 'img/5.jpg' %}');">
+  <div class="navbg">
+    <nav><div class="icon">portfolio....!</div>
+      <div class="right">  
+       <a href="{% url 'home' %}" class="navangular" >Home</a>
+      <a href="{% url 'project' %}" class="navangular">project's</a>
+      <a href="{% url 'contact' %}" class="navangular">contact</a>
+      <a href="{% url 'about' %}" class="navangular" style="color: red;">about</a></div>
+    </nav>
+  </div>
+  <h1 style="font-size:50px">RESUME</h1>
+  <br>
+  <b>A.vignesh sethupathi,</b><br>
+  1/42,newstreet,panangudi,<br>
+  sivagangai(d.t),<br>
+  630555<br>
+  tamilnadu<br><img src="{% static 'img/photo.png' %}" alt="image not support" id="ab"><br>
+  phone no:7603915159,<br>
+  Gmail   :sethuvicky330@gmail.com. 
+<br><br>
+  <strong>OBJECTIVE :</strong><br>
+  Enthusiastically work for an organization for its development and enhance my own skils and
+  knowledge.
+  <br><br>
+  <strong>ACADEMIC :
+
+  </strong>
+  <table>
+      <tr>
+          <th>QUALIFICATION</th>
+          <th>DURATION</th>
+          <TH>SCHOOL/COLLEGE</TH>
+          <TH>BOARD/UNIVERCITY</TH>
+          <TH>PERCENTAGE</TH>
+      </tr>
+      <tr>
+          <td>Diploma ECE</td>
+          <td>2019-2021</td>
+          <td>Alagappa Govt Polytechnic College,<br>karaikudi,<br>630307</td>
+          <td>Alagappa univercity,<br>karaikudi</td>
+          <td>84%</td>
+      </tr>
+      <tr>
+          <td>HSC</td>
+          <td>2017-2019</td>
+          <td>Kallal Murugappa HSS ,<br>kallal,<br>sivagangai</td>
+<TD>State board</TD>
+          <td>59%</td>
+      </tr>
+      <tr><td>SSLC</td>
+ <td>2015-2017</td>
+ <td>RCM hgh school,<br>
+Nattarajapuram,<br>sivagangai</td>
+<td>state board</td>
+<td>79%</td>    
+
+      </tr>
+  </table>
+  <strong>AREA OF INTEREST:</strong><br>
+  <ol>
+      <li>Automobile industry</li>
+      <li>electrical works</li>
+      <li>electonic's work</li>
+      <li>computer's hardware and software</li>
+  </ol><br><br>
+  <strong>ACADEMIC YEAR OF PROJECT:</strong><br>
+  <strong>Title:</strong> Smart Crop Prodection<br><br>
+  <br><br><strong>LANGUAGE'S KNOWN:
+  </strong><br>
+  <ol><li>tamil</li>
+  <li>english</li></ol><br><br>
+  <strong>HOBBIES:</strong>
+  Playing vollyball,chess,cricket.<br><br>
+  <strong>PERSONNAL DETAIL's:</strong><br><br>
+Name          : A.vignesh sethupathi<br>
+Date Of Birth : 01/12/2001<br>
+Father's name : s.aathinamilaki<br>
+Gender        : male<br>
+Marital Status: single<br>
+Nationality   : indian<br>
+religon       : hindhu<br>
+community     : BC<br><br><br>
+<strong>Permenet address:</strong><br>
+1/42,newstreet,<br>panangudi,<br>sivagangai(d.t),<br>karaikudi(taluga),<br>630555.
+<br><br><strong>DECLARATION:</strong><br>
+I here by declare that all the above given information is true to the bestof<br>my knowledge and belif.
+<br><br>
+Place: <br>date :           <p id="name">your's faithfully,</p>
+     <p id="name">  A.vignesh sethupathi</p>
+
+
+</body>
+</html>

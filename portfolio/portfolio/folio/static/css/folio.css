@@ -1,0 +1,254 @@
+.navbg{
+       background-image: radial-gradient(rgb(194, 191, 14),rgb(46, 155, 19));
+       width: 100%;
+       height: 100px;
+       border-radius: 10px;
+}
+
+.right{display: flex;
+position: relative;
+top: 15px;
+left: 50%;
+width: 633px;
+height: 70px;
+
+
+}
+.navangular{background-color: green;
+    text-decoration: none;
+    padding: 10px 25px ;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(3, 29, 3);
+    font-family: cursive;
+    text-shadow: 1px 5px 6px rgb(0, 0, 0);
+    font-weight: bolder;
+    color: aliceblue;
+}
+.navangular:hover{
+    background-color: rgb(157, 173, 5);
+    transition: 0.6s;
+}
+.icon{position: absolute;
+top: 10px;
+left: 30px;
+font-size: 60px;
+font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 900;
+text-shadow: 2px 5px 20px rgb(15, 14, 14);
+color: rgb(255, 255, 255);}
+.mainflex{
+  
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    column-gap: 15px;
+    
+}
+.child1, .child2{
+    margin-top: 10px;
+  
+}
+.child2{
+    text-align: center;
+   
+    
+}
+body{
+    background-size: 400vh;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+.tag1{
+    position: relative;
+    top: 100px; 
+font-size: 60px;
+color: rgb(255, 255, 255);
+text-shadow: 0px 6px 3px rgb(2, 2, 2);
+
+}
+#work{position: relative;
+    top: 100px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0px 1px 8px rgb(252, 0, 0);
+}
+.bold{position: absolute;
+right: 300px;
+top: 500px;
+font-size: 20px;
+color:tomato;
+text-shadow: 2px 0px 1px rgb(31, 2, 2);}
+#pic{
+    margin: 10px;
+    width: 370px;
+    height: 500px;
+    border: 1px solid rgb(152, 126, 226);
+    animation:  glow 2s infinite;
+    border-radius: 10%;
+}
+@keyframes glow{
+    from{box-shadow: 0px 0px 50px rgb(0, 247, 41);}
+    to{box-shadow: 0px  0px 50px rgb(132, 0, 255);}
+}
+.projectbg{
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.chlidproject{
+    background-color: rgba(255, 255, 255, 0.349);
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+#project_list{
+    font-size: 30px;
+    font-family: fantasy;
+    color: rgb(14, 14, 13);
+    background-color: rgb(219, 178, 102);
+    border: 2px solid orange;
+    box-shadow: 1px 5px 10px rgb(255, 0, 0);
+    padding: 10px 30px 10px 20px;
+    position: relative;
+    top: 15px;
+    left: 5px;
+    border-radius: 50px;
+}
+#title{
+    position: absolute;
+    left: 450px;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 2px 3px  rgb(73, 2, 2);
+    font-weight: 200;
+}
+.div{
+    width: 750px;
+    height: 410px;
+    
+    margin-right: 10px;
+    
+}
+table{
+    border: 2px  solid red;
+    background:rgba(253, 143, 0, 0.3);
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+th,td{
+    border: 1.5px solid black;
+     background: rgba(255, 255, 255, 0.548);
+    border-collapse: collapse;
+}
+.para{
+    color: #fff;
+    font-weight: 900;
+}
+.output{ font-size: 30px;
+    font-family: fantasy;
+    color: rgb(7, 122, 17);
+    background-color: rgb(102, 219, 219);
+    border: 2px solid rgb(5, 163, 18);
+    box-shadow: 1px 5px 10px rgb(255, 0, 0);
+    padding: 5px 20px 5px 10px;
+    position: relative;
+    top: 0px;
+    left: 5px;
+    border-radius: 50px;}
+    .contacts{
+        background-color: rgba(253, 253, 253, 0.418);
+        width: 100%;
+        height: 180px;
+        margin-top: 10px;
+        border-radius: 10px;
+        border: 2px solid violet;
+    }
+    .cont{
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        color: purple;
+        text-shadow: 0px 5px 5px rgb(7, 0, 0);
+        text-decoration: underline;
+    }
+    #conimg{
+       border-radius: 60%;
+       width: 100px;
+       position: absolute;
+       top: 525px;
+       left: 300px;
+       border: 1px solid orangered;
+    }
+    .mobile{
+        font-size: 50px;
+        position: relative;
+        left: 500px;
+        top: -45px;
+    }
+    #emailimg{
+        border-radius: 30%;
+        border: 1px solid red;
+        width: 100px;
+        position: absolute;
+        top: 350px;
+        left: 300px;
+     }
+    .email{
+        font-size: 50px;
+        position: relative;
+        left: 500px;
+        top: -45px;
+        
+    }
+    #githubimg{
+        border-radius: 30%;
+        border: 1px solid red;
+        width: 100px;
+        position: absolute;
+        top: 170px;
+        left: 300px;
+     }
+    .github{
+        font-size: 50px;
+        position: relative;
+        left: 500px;
+        top: -45px;
+        
+    }
+    .link a{
+        text-decoration: none;
+        color: rgb(119, 15, 15);
+        text-shadow: 0px 2px 15px rgb(250, 7, 7);
+        font-size: 40px;
+        position: absolute;
+        top: 225px;
+        left: 500px;
+    }
+    .download a{
+        font-size: 30px;
+        color: #fff;
+        font-family: cursive;
+        text-decoration: none;
+        position: absolute;
+        bottom: 80px;
+        left: 700px;
+        background-color: rgb(96, 12, 175);
+        padding: 0px 20px;
+        border-radius: 20px;
+        border: 1px solid blue;
+    }
+    #ab{
+        width: 220px;
+        height: 300px;
+        border-radius: 10px;
+        border: 5px solid green;
+        box-shadow: 10px 10px 30px rgb(5, 153, 5);
+        position: absolute;
+    }
